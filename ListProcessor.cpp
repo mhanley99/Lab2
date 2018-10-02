@@ -19,15 +19,15 @@ int main()
 	cout << "cows list  :  " << cows << endl << "cows size : " << cows.size() << endl << "cows sum: " << cows.sum() << endl << endl;
 
 	cows.removeFirst();
-	cout << "cows list  :  " << cows << endl << "cows size : " << cows.size() << endl "cows sum: " << cows.sum() << endl << endl;
+	cout << "cows list  :  " << cows << endl << "cows size : " << cows.size() << endl << "cows sum: " << cows.sum() << endl << endl;
 	
-	cows.insertAsLast();
+	cows.insertAsLast(3);
 	cout << "insert as last" << endl;
-	cout << "cows list  :  " << cows << endl << "cows size : " << cows.size() << endl "cows sum: " << cows.sum() << endl << endl;
+	cout << "cows list  :  " << cows << endl << "cows size : " << cows.size() << endl << "cows sum: " << cows.sum() << endl << endl;
 
 	List horses(cows);
-	cout << "cows list  :  " << cows << endl << cows.size() << endl << "cows sum: " << cows.sum() << endl;
-	cout << "horses list:  " << horses << << horses.size() << endl << "horses sum: " << horses.sum() << endl << endl;
+	cout << "cows list:  " << cows << endl << cows.size() << endl << "cows sum: " << cows.sum() << endl;
+	cout << "horses list:  " << horses << horses.size() << endl << "horses sum: " << horses.sum() << endl << endl;
 
 	horses.removeFirst();
 	horses.insertAsFirst(5.67);
